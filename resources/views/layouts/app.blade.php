@@ -14,13 +14,14 @@
     <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
 </head>
 <body>
+    <!-- Navbar -->
     @include('layouts.navbar')
     <div class="container-fluid">        
-        <div class="row mt-1">
-            <div class="col-md-2">
+        <div class="row mt-2">
+            <div class="col-md-3">
                 @include('layouts.sidebar')
             </div>
-            <div class="com-md-10">
+            <div class="com-md-9">
                 @include('layouts.breadcrumd')
                 @yield('content')
             </div>
